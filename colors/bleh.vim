@@ -68,7 +68,7 @@ if &background == "dark"
 
 else
 	highlight ColorColumn  term=NONE cterm=NONE ctermfg=NONE ctermbg=3
-	highlight Comment      term=NONE cterm=NONE ctermfg=8    ctermbg=NONE
+	highlight Comment      term=NONE cterm=bold ctermfg=7    ctermbg=NONE
 	highlight Constant     term=NONE cterm=NONE ctermfg=6    ctermbg=NONE
 	highlight Cursor       term=NONE cterm=bold ctermfg=3    ctermbg=NONE
 	highlight CursorLine   term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE
