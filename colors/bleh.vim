@@ -74,29 +74,28 @@ else
 	highlight CursorLine   term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE
 	highlight DiffAdd      term=NONE cterm=bold ctermfg=2    ctermbg=NONE
 	highlight DiffChange   term=NONE cterm=bold ctermfg=NONE ctermbg=NONE
-	highlight DiffDelete   term=NONE cterm=bold ctermfg=0    ctermbg=1
-	highlight DiffText     term=NONE cterm=bold ctermfg=0    ctermbg=4
+	highlight DiffDelete   term=NONE cterm=bold ctermfg=7    ctermbg=1
+	highlight DiffText     term=NONE cterm=bold ctermfg=7    ctermbg=4
 	highlight Directory    term=NONE cterm=bold ctermfg=4    ctermbg=7
 	highlight Error        term=NONE cterm=NONE ctermfg=0    ctermbg=1
 	highlight ErrorMsg     term=NONE cterm=bold ctermfg=1    ctermbg=7
 	highlight FoldColumn   term=NONE cterm=bold ctermfg=7    ctermbg=NONE
-	highlight Folded       term=NONE cterm=bold ctermfg=0    ctermbg=NONE
+	highlight Folded       term=NONE cterm=bold ctermfg=7    ctermbg=NONE
 	highlight Function     term=NONE cterm=bold ctermfg=5    ctermbg=NONE
 	highlight Identifier   term=NONE cterm=NONE ctermfg=1    ctermbg=NONE
 	highlight IncSearch    term=NONE cterm=bold ctermfg=5    ctermbg=5
-	highlight NonText      term=NONE cterm=bold ctermfg=0    ctermbg=NONE
+	highlight NonText      term=NONE cterm=bold ctermfg=7    ctermbg=NONE
 	highlight Normal       term=NONE cterm=NONE ctermfg=0    ctermbg=NONE
 	highlight Pmenu        term=NONE cterm=NONE ctermfg=7    ctermbg=0.
 	highlight PreProc      term=NONE cterm=bold ctermfg=6    ctermbg=NONE
-	highlight Search       term=NONE cterm=bold ctermfg=0    ctermbg=5
+	highlight Search       term=NONE cterm=bold ctermfg=7    ctermbg=5
 	highlight Special      term=NONE cterm=NONE ctermfg=2    ctermbg=NONE
 	highlight SpecialKey   term=NONE cterm=NONE ctermfg=7    ctermbg=NONE
 	highlight Statement    term=NONE cterm=NONE ctermfg=4    ctermbg=NONE
 	highlight StatusLine   term=NONE cterm=bold ctermfg=7    ctermbg=NONE
-	" highlight StatusLineNC term=NONE cterm=bold ctermfg=0    ctermbg=NONE
 	highlight String       term=NONE cterm=NONE ctermfg=2    ctermbg=NONE
-	highlight TabLineSel   term=NONE cterm=bold ctermfg=0    ctermbg=NONE
-	highlight Todo         term=NONE cterm=bold ctermfg=0    ctermbg=1
+	highlight TabLineSel   term=NONE cterm=bold ctermfg=7    ctermbg=NONE
+	highlight Todo         term=NONE cterm=bold ctermfg=7    ctermbg=1
 	highlight Type         term=NONE cterm=bold ctermfg=4    ctermbg=NONE
 	highlight Underlined   term=underline cterm=underline ctermfg=NONE   ctermbg=NONE
 	highlight VertSplit    term=NONE cterm=bold ctermfg=7    ctermbg=NONE
