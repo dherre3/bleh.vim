@@ -52,20 +52,6 @@ if &background == "dark"
 	highlight VertSplit    term=NONE cterm=bold ctermfg=0    ctermbg=NONE
 	highlight Visual       term=NONE cterm=reverse,bold ctermfg=0    ctermbg=NONE
 	highlight WarningMsg   term=NONE cterm=bold ctermfg=3    ctermbg=NONE
-
-	" General highlighting group links.
-	highlight! link diffAdded       DiffAdd
-	highlight! link diffRemoved     DiffDelete
-	highlight! link diffChanged     DiffChange
-	highlight! link StatusLineNC    StatusLine
-	highlight! link Title           Normal
-	highlight! link LineNr          NonText
-	highlight! link MoreMsg         Normal
-	highlight! link Question        DiffChange
-	highlight! link TabLine         StatusLineNC
-	highlight! link TabLineFill     StatusLineNC
-	highlight! link VimHiGroup      VimGroup
-
 else
 	highlight ColorColumn  term=NONE cterm=NONE ctermfg=NONE ctermbg=3
 	highlight Comment      term=NONE cterm=bold ctermfg=7    ctermbg=NONE
@@ -102,17 +88,16 @@ else
 	highlight Visual       term=NONE cterm=NONE ctermfg=7    ctermbg=8
 	highlight WarningMsg   term=NONE cterm=bold ctermfg=3    ctermbg=NONE
 
-	" General highlighting group links.
-	highlight! link diffAdded       DiffAdd
-	highlight! link diffRemoved     DiffDelete
-	highlight! link diffChanged     DiffChange
-	highlight! link StatusLineNC    StatusLine
-	highlight! link Title           Normal
-	highlight! link LineNr          NonText
-	highlight! link MoreMsg         Normal
-	highlight! link Question        DiffChange
-	highlight! link TabLine         StatusLineNC
-	highlight! link TabLineFill     StatusLineNC
-	highlight! link VimHiGroup      VimGroup
 endif
-
+" General highlighting group links.
+highlight! link diffAdded       DiffAdd
+highlight! link diffRemoved     DiffDelete
+highlight! link diffChanged     DiffChange
+highlight! link StatusLineNC    StatusLine
+highlight! link Title           Normal
+highlight! link LineNr          NonText
+highlight! link MoreMsg         Normal
+highlight! link Question        DiffChange
+highlight! link TabLine         StatusLineNC
+highlight! link TabLineFill     StatusLineNC
+highlight! link VimHiGroup      VimGroup
