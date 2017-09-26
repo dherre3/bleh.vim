@@ -52,6 +52,8 @@ if &background == "dark"
 	highlight VertSplit    term=NONE cterm=bold ctermfg=0    ctermbg=NONE
 	highlight Visual       term=NONE cterm=reverse,bold ctermfg=0    ctermbg=NONE
 	highlight WarningMsg   term=NONE cterm=bold ctermfg=3    ctermbg=NONE
+
+	highlight ALEErrorSign ctermbg=0 ctermfg=magenta
 else
 	highlight ColorColumn  term=NONE cterm=NONE ctermfg=NONE ctermbg=3
 	highlight Comment      term=NONE cterm=bold ctermfg=7    ctermbg=NONE
@@ -87,7 +89,7 @@ else
 	highlight VertSplit    term=NONE cterm=bold ctermfg=7    ctermbg=NONE
 	highlight Visual       term=NONE cterm=NONE ctermfg=7    ctermbg=8
 	highlight WarningMsg   term=NONE cterm=bold ctermfg=3    ctermbg=NONE
-
+	highlight ALEErrorSign ctermbg=7 ctermfg=magenta
 endif
 " General highlighting group links.
 highlight! link diffAdded       DiffAdd
